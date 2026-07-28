@@ -6,90 +6,143 @@
 
 <title>Pepiniera Pietroasele - Butași Viță de Vie</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f7f8f2;
-    color: #333;
+
+*{
+    box-sizing:border-box;
 }
 
-header {
-    background: linear-gradient(#245c2a, #3b8b42);
-    color: white;
-    text-align: center;
-    padding: 45px 20px;
+body{
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    background:#f5f4ed;
+    color:#333;
 }
 
-.logo {
-    font-size: 45px;
+header{
+    background:
+    linear-gradient(rgba(25,80,35,0.85),rgba(55,120,60,0.85)),
+    url("poza-vita.jpg");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
 }
 
-h1 {
-    font-size: 34px;
-    margin: 10px 0;
+.logo{
+    font-size:55px;
+    animation:float 3s infinite;
 }
 
-.subtitle {
-    font-size: 18px;
+@keyframes float{
+    50%{
+        transform:translateY(-8px);
+    }
 }
 
-section {
-    padding: 25px 15px;
+h1{
+    font-family:'Cinzel',serif;
+    font-size:42px;
+    margin:15px 0;
+    letter-spacing:2px;
 }
 
-.card {
-    background: white;
-    max-width: 750px;
-    margin: 20px auto;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+.subtitle{
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
 }
 
-h2 {
-    color: #245c2a;
-    text-align: center;
+section{
+    padding:30px 15px;
 }
 
-.center {
-    text-align: center;
+.card{
+    background:white;
+    max-width:850px;
+    margin:25px auto;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
 }
 
-.price {
-    font-size: 28px;
-    color: #b8860b;
-    font-weight: bold;
+h2{
+    text-align:center;
+    color:#245c2a;
+    font-family:'Cinzel',serif;
+    font-size:30px;
+    margin-bottom:25px;
 }
 
-.button {
-    display: inline-block;
-    padding: 15px 25px;
-    margin: 8px;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+h3{
+    color:#b8860b;
+    font-size:22px;
 }
 
-.whatsapp {
-    background: #25D366;
+p{
+    line-height:1.8;
 }
 
-.tiktok {
-    background: #000;
+.highlight{
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    color:#245c2a;
+    margin:20px 0;
 }
 
-ul {
-    line-height: 1.8;
+.soi{
+    background:#f8f8f0;
+    border-left:6px solid #b8860b;
+    padding:20px;
+    margin:20px 0;
+    border-radius:15px;
 }
 
-footer {
-    background: #245c2a;
-    color: white;
-    text-align: center;
-    padding: 20px;
+.soi h3{
+    margin-top:0;
 }
+
+.soi ul{
+    line-height:1.8;
+}
+
+.button{
+    display:inline-block;
+    padding:15px 30px;
+    margin:10px;
+    border-radius:30px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.button:hover{
+    transform:scale(1.05);
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.tiktok{
+    background:#000;
+}
+
+.center{
+    text-align:center;
+}
+
+.price{
+    font-size:35px;
+    color:#b8860b;
+    font-weight:bold;
+}
+
 </style>
 
 </head>
@@ -103,60 +156,112 @@ footer {
 <h1>Pepiniera Pietroasele</h1>
 
 <p class="subtitle">
-Butași de viță de vie de calitate, produși cu pasiune și experiență de peste 10 ani
+Butași de viță de vie de calitate, crescuți cu pasiune,
+experiență și grijă pentru viitorul plantațiilor dumneavoastră.
 </p>
 
-</header>
-
-
-<section>
+</header><section>
 
 <div class="card">
 
-<h2>Despre noi</h2>
+<h2>🌿 Despre noi</h2>
 
 <p>
-Pepiniera Pietroasele este specializată în producerea și comercializarea butașilor de viță de vie.
-Suntem localizați în comuna Pietroasele, județul Buzău, iar experiența acumulată de peste 10 ani
-ne ajută să oferim clienților noștri material săditor de calitate și sfaturi pentru o plantație sănătoasă.
+Pepiniera Pietroasele este specializată în producerea și comercializarea
+butașilor de viță de vie. Suntem producători dedicați, cu experiență de peste
+10 ani în îngrijirea viței de vie și pregătirea materialului săditor de calitate.
 </p>
 
+<p class="highlight">
+🍇 Alegem calitatea pentru o vie sănătoasă și roditoare!
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>🍇 Soiuri disponibile</h2>
+
+<p class="center">
+Descoperiți soiuri alese pentru gust, productivitate și adaptare excelentă.
+</p>
+
+
+<div class="soi">
+
+<img src="tamina.jpg" alt="Tamina fără sâmbure" style="width:100%;border-radius:15px;">
+
+<h3>• Tamina fără sâmbure</h3>
+
+<ul>
+<li>🍇 Struguri de masă foarte apreciați</li>
+<li>✅ Boabe gustoase și aspectuoase</li>
+<li>✅ Potrivit pentru consum proaspăt</li>
+</ul>
+
+</div>
+
+
+
+<div class="soi">
+
+<img src="muscat-adda.jpg" alt="Mușcat de Adda" style="width:100%;border-radius:15px;">
+
+<h3>• Mușcat de Adda</h3>
+
+<ul>
+<li>🍇 Aromă deosebită de muscat</li>
+<li>✅ Struguri eleganți și gustoși</li>
+<li>✅ Soi apreciat de iubitorii de viță</li>
+</ul>
+
+</div>
+
+
+
+<div class="soi">
+
+<img src="avatar.jpg" alt="Avatar" style="width:100%;border-radius:15px;">
+
+<h3>• Avatar</h3>
+
+<ul>
+<li>🍇 Soi modern cu aspect spectaculos</li>
+<li>✅ Productivitate bună</li>
+<li>✅ Struguri mari și atractivi</li>
+</ul>
+
+</div>
+
+
+
+<div class="soi">
+
+<h3>🍷 Soiuri de vin</h3>
+
 <p>
-Punem pasiune în fiecare etapă, de la îngrijirea viței de vie până la pregătirea butașilor pentru clienții noștri.
+Cabernet, Merlot, Fetească Albă, Fetească Neagră,
+Pinot Noir, Sauvignon Blanc, Riesling, Tămâioasă Românească
+și alte soiuri apreciate.
 </p>
 
 </div>
 
 
 
-<div class="card">
+<div class="soi">
 
-<h2>🌱 Butași disponibili</h2>
-
-<h3>Soiuri de masă</h3>
+<h3>🌱 Soiuri hibride</h3>
 
 <p>
-Tamina fără sâmbure, Mușcat de Adda, Ceasla, Hallowen, Avatar,
-Cardinal, Afuz Ali, Victoria, Italia, Mușcat de Hamburg și multe alte soiuri.
+Isabella, Moldova, Ananas Alb, Ananas Negru,
+Frăguță Albă, Frăguță Neagră, Căpșunică Albă,
+Căpșunică Neagră și alte soiuri.
 </p>
 
+</div>
 
-<h3>Soiuri de vin</h3>
-
-<p>
-Cabernet, Merlot, Fetească Albă, Fetească Neagră, Pinot Noir,
-Fetească Regală, Pinot Gris, Sauvignon Blanc, Ottonel,
-Riesling, Tămâioasă Românească și alte soiuri.
-</p>
-
-
-<h3>Soiuri hibride</h3>
-
-<p>
-Isabella, R10, Moldova, Ananas Alb, Ananas Negru,
-Frăguță Albă, Frăguță Neagră, 1001,
-Căpșunică Albă și Căpșunică Neagră.
-</p>
 
 </div>
 
@@ -171,8 +276,8 @@ De la 7 lei / butaș
 </p>
 
 <p>
-Avem butași de anul 1, 2 și 3 de vegetație.
-Pentru cantități mai mari discutăm prețuri avantajoase.
+Butași de anul 1, 2 și 3 de vegetație.
+Pentru comenzi mai mari oferim prețuri avantajoase.
 </p>
 
 </div>
@@ -184,22 +289,22 @@ Pentru cantități mai mari discutăm prețuri avantajoase.
 <h2>🚚 Comenzi și livrare</h2>
 
 <ul>
-<li>Comenzi prin telefon sau WhatsApp</li>
-<li>Livrare prin curier în toată România</li>
-<li>Posibilitate de ridicare personală din pepinieră</li>
-<li>Oferim sfaturi pentru plantare și întreținere</li>
+<li>✅ Comenzi prin WhatsApp sau telefon</li>
+<li>✅ Livrare în toată România</li>
+<li>✅ Sfaturi pentru plantare și întreținere</li>
+<li>✅ Ridicare personală din pepinieră</li>
 </ul>
 
 
 <div class="center">
 
 <a class="button whatsapp" href="https://wa.me/40728155220">
-Comandă pe WhatsApp
+🍇 Comandă pe WhatsApp
 </a>
 
 
 <a class="button tiktok" href="https://www.tiktok.com/@pepinierapietroasele">
-Urmărește-ne pe TikTok
+🎵 TikTok Pepiniera Pietroasele
 </a>
 
 </div>
@@ -221,25 +326,14 @@ Urmărește-ne pe TikTok
 
 
 
-<div class="card">
-
-<h2>🌿 Pepiniera Pietroasele</h2>
-
-<p>
-Producător autorizat de butași de viță de vie, cu experiență și pasiune pentru viticultură.
-Alegerea potrivită pentru cei care doresc o vie sănătoasă și roditoare.
-</p>
-
-</div>
-
-
 </section>
 
 
-<footer>
+<footer style="background:#245c2a;color:white;text-align:center;padding:25px;">
 
 <p>
-© Pepiniera Pietroasele 🍇
+© Pepiniera Pietroasele 🍇🌿<br>
+Rădăcini sănătoase. Recolte bogate.
 </p>
 
 </footer>
